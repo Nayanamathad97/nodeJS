@@ -10,5 +10,4 @@ COPY package*.json ./
 RUN npm install
 COPY index.js .
 EXPOSE 3070
-ENTRYPOINT ["node"]
-CMD ["index.js"]
+CMD ["index.js","node"]
